@@ -96,13 +96,3 @@ void main()
 		}
 	}
 }
-if(flag==0)
-{
-printf("\tPage-fault%d",cnt);
-cnt++;
-}
-else
-printf("\tNo page fault");
-flag=0;
-}
-}
